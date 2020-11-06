@@ -1,0 +1,13 @@
+* {
+  height: 100%;
+}
+
+::selection {
+  background-color: green;
+}
+
+body {
+  background-color: rgb(105, 202, 67);
+  display: grid;
+  place-content: center center;
+}
