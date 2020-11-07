@@ -1,13 +1,36 @@
-* {
-  height: 100%;
-}
 
 ::selection {
-  background-color: green;
+  background: green;
 }
 
 body {
-  background-color: rgb(105, 202, 67);
-  display: grid;
-  place-content: center center;
+  background: rgb(87, 233, 87);
+}
+
+* {
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  margin-top: 300px;
+  max-width: 300px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: green;
+  border:none;
+  outline:none;
+  padding: 10px 20px;
+  border-radius:10px;
+  box-shadow: 3px 3px 3px rgb(83, 231, 57);
+  cursor: pointer;
+  color:#fff;
+  margin-top:10px;
+  width: 100px;
+  
+
 }

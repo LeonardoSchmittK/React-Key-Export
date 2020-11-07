@@ -8,12 +8,15 @@
 
 // console.log(nums)
 
-const items = {
-  item1:'x',
-  item2:'xy',
-  item3:'xyz',
-}
+// const items = {
+//   item1:'x',
+//   item2:'xy',
+//   item3:'xyz',
+// }
 
-const newItems = Object.assign({},items,{item1:'item1'},{aaa:'eee'});
+// const newItems = Object.assign({},items,{item1:'item1'},{aaa:'eee'});
 
-console.log(newItems)
+// console.log(newItems)
+
+const names = ['B','C','R','A'].sort()
+console.log(names)
